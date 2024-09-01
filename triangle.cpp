@@ -4,6 +4,7 @@ using namespace std;
 int main() {
 //1,3,5,7,9
 	//2i-1-->formula 
+	//new push
 	int row = 5;
 	for (int i = 1; i <= row; i++)
 	{
