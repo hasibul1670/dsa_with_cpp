@@ -8,12 +8,15 @@ int main()
     {
         scanf("%d", &A[i]);
     }
-
+    int lowest = A[0];
+    int index = 1;
     for (int i = 0; i < N; i++)
-        if (A[i] <= 10)
+        if (A[i] < lowest)
         {
-            printf("A[%d] = %d\n", i, A[i]);
+            lowest = A[i];
+            index = i + 1;
         }
+    printf("%d %d", lowest, index);
 
     return 0;
 }
