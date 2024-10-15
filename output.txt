@@ -1,1 +1,2 @@
-3 6 0 5 4 
+Reference Value: 5
+After changing 'a', ref = 10
